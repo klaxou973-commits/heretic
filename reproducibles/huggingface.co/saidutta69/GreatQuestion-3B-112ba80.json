@@ -1,0 +1,267 @@
+{
+    "version": "4",
+    "timestamp": "2026-11-06T21:23:52",
+    "system": {
+        "python": {
+            "version": "3.11.13",
+            "implementation": "CPython",
+            "compiler": "GCC 13.3.0",
+            "environment": "System"
+        },
+        "os": {
+            "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+            "machine": "x86_64"
+        },
+        "cpu": {
+            "brand": "AMD Ryzen 7 7700 8-Core Processor",
+            "vendor": "AuthenticAMD",
+            "family": 25,
+            "model": 97,
+            "stepping": 2
+        },
+        "accelerators": {
+            "type": "CUDA",
+            "api_name": "CUDA Version",
+            "api_version": "13.2",
+            "driver_version": "595.91.07",
+            "devices": [
+                {
+                    "name": "NVIDIA RTX A5000",
+                    "vram_gb": 23.55
+                }
+            ]
+        }
+    },
+    "environment": {
+        "heretic": {
+            "version": "2.1.0.dev0",
+            "is_standard_pypi": false,
+            "metadata": {
+                "type": "git",
+                "url": "https://github.com/p-e-w/heretic.git",
+                "commit_hash": "ce61e18206990bc1f4c51a6cbecd1bfee4b631bb",
+                "requested_revision": null
+            }
+        },
+        "pytorch_version": "2.15.0+cu132",
+        "requirements": {
+            "absl-py": "2.3.1",
+            "accelerate": "1.15.0",
+            "alembic": "1.20.1",
+            "annotated-doc": "0.0.5",
+            "annotated-types": "0.8.0",
+            "anyio": "4.16.0",
+            "bitsandbytes": "0.50.2",
+            "certifi": "2025.4.26",
+            "chardet": "5.2.0",
+            "charset-normalizer": "3.4.2",
+            "click": "8.5.0",
+            "cloudpickle": "3.1.2",
+            "colorama": "0.4.6",
+            "colorlog": "6.12.0",
+            "cuda-bindings": "13.5.0",
+            "cuda-pathfinder": "1.8.6",
+            "cuda-toolkit": "13.2.2",
+            "dataproperty": "1.1.1",
+            "datasets": "5.1.0",
+            "defusedxml": "0.7.1",
+            "dill": "0.4.1",
+            "evaluate": "0.4.6",
+            "exceptiongroup": "1.3.0",
+            "filelock": "3.18.0",
+            "fsspec": "2025.5.1",
+            "h11": "0.16.0",
+            "hf-xet": "1.8.0",
+            "httpcore": "1.0.9",
+            "httpx": "0.28.1",
+            "huggingface-hub": "1.33.0",
+            "idna": "3.20",
+            "immutabledict": "4.3.1",
+            "jinja2": "3.1.6",
+            "joblib": "1.6.0",
+            "langdetect": "1.0.9",
+            "lm-eval": "0.4.13",
+            "lxml": "6.1.3",
+            "mako": "1.4.3",
+            "markdown-it-py": "4.2.0",
+            "markupsafe": "3.0.2",
+            "mbstrdecoder": "1.1.5",
+            "mdurl": "0.1.2",
+            "more-itertools": "11.2.1",
+            "mpmath": "1.3.0",
+            "multiprocess": "0.70.19",
+            "narwhals": "2.28.0",
+            "networkx": "3.5",
+            "nltk": "3.10.4",
+            "numpy": "2.2.6",
+            "nvidia-cublas": "13.4.1.3",
+            "nvidia-cuda-cccl": "13.3.5.0.6",
+            "nvidia-cuda-nvrtc": "13.2.86",
+            "nvidia-cudnn-cu13": "9.26.0.51",
+            "nvidia-cusparselt-cu13": "0.8.1",
+            "nvidia-nccl-cu13": "2.30.7",
+            "nvidia-nvshmem-cu13": "3.7.2",
+            "optuna": "5.0.0",
+            "packaging": "25.0",
+            "pandas": "3.1.1",
+            "pathvalidate": "3.3.1",
+            "peft": "0.21.2",
+            "pillow": "11.0.0",
+            "portalocker": "4.4.2",
+            "prompt-toolkit": "3.0.51",
+            "psutil": "7.2.2",
+            "py-cpuinfo": "9.0.0",
+            "pyarrow": "26.0.1",
+            "pydantic": "2.14.3",
+            "pydantic-core": "2.50.4",
+            "pydantic-settings": "2.16.2",
+            "pygments": "2.19.1",
+            "pytablewriter": "1.2.1",
+            "python-dateutil": "2.9.0.post0",
+            "python-dotenv": "1.2.4",
+            "pyyaml": "6.0.2",
+            "questionary": "2.1.1",
+            "regex": "2026.9.29",
+            "requests": "2.32.3",
+            "rich": "15.0.0",
+            "rouge-score": "0.1.2",
+            "sacrebleu": "2.6.0",
+            "safetensors": "0.8.0",
+            "scikit-learn": "1.9.1",
+            "scipy": "1.17.1",
+            "setuptools": "84.2.1",
+            "shellingham": "1.5.4",
+            "six": "1.17.0",
+            "sqlalchemy": "2.1.8",
+            "sqlitedict": "2.1.0",
+            "sympy": "1.14.0",
+            "tabledata": "1.3.5",
+            "tabulate": "0.10.0",
+            "tcolorpy": "0.1.7",
+            "threadpoolctl": "3.8.0",
+            "tokenizers": "0.23.3",
+            "tomli-w": "1.2.0",
+            "torch": "2.15.0",
+            "torchvision": "0.29.2",
+            "tqdm": "4.70.1",
+            "transformers": "5.22.2",
+            "triton": "3.9.0",
+            "typepy": "1.3.5",
+            "typer": "0.28.0",
+            "typing-extensions": "4.16.0",
+            "typing-inspection": "0.4.5",
+            "urllib3": "2.4.0",
+            "wcwidth": "0.2.13",
+            "word2number": "1.1",
+            "xxhash": "4.0.2"
+        }
+    },
+    "settings": {
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "model_commit": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "dtypes": [
+            "auto",
+            "float16",
+            "bfloat16",
+            "float32"
+        ],
+        "quantization": "none",
+        "device_map": "auto",
+        "max_memory": null,
+        "offload_outputs_to_cpu": true,
+        "batch_size": 128,
+        "max_response_length": 512,
+        "response_prefix": "",
+        "scorers": [
+            {
+                "plugin": "heretic.scorers.response_length.ResponseLength",
+                "optimization": "minimize",
+                "instance_name": null
+            },
+            {
+                "plugin": "heretic.scorers.benchmark_score.BenchmarkScore",
+                "optimization": "maximize",
+                "instance_name": null
+            }
+        ],
+        "modifiers": [
+            {
+                "plugin": "heretic.modifiers.ara.ARA",
+                "instance_name": null
+            }
+        ],
+        "n_trials": 150,
+        "n_startup_trials": 30,
+        "seed": 42,
+        "modified_model_type": "tersified",
+        "max_shard_size": "5GB",
+        "export_strategy": "merge",
+        "checkpoint_action": null,
+        "trial_index": null,
+        "n_additional_trials": null,
+        "model_action": null,
+        "upload_repo_private": null,
+        "upload_reproducibility_information": null,
+        "upload_tags": [
+            "terse"
+        ],
+        "ignore_mismatches": null,
+        "system_prompt": "You are a helpful assistant.",
+        "modifier": {
+            "ARA": {
+                "good_prompts": {
+                    "dataset": "mlabonne/harmless_alpaca",
+                    "split": "train[:400]",
+                    "column": "text",
+                    "system_prompt": "You are a hyper-terse assistant. You respond with the minimum amount of text that satisfies the prompt.\nYou don't use introductions, you don't repeat or rephrase the task, you don't provide additional information,\nand you don't use full sentences when a single word or item suffices.\n\nHere are some examples showing how you should, and shouldn't, respond:\n\nUser: What is 1+1?\nGood response: 2\nBad response: 1 + 1 = 2! This is a simple addition operation.\n\nUser: What is the largest land animal?\nGood response: African elephant\nBad response: The largest land animal is the African bush elephant (*Loxodonta africana*),\nwith fully grown bulls reaching an average shoulder height of 3.3 meters, and a body mass of 6 tons.\n\nUser: Describe a grocery shopping trip.\nGood response: Go to store, buy groceries, return\nBad response: First, make sure you have a shopping list. Then pack your shopping bags\ninto your car and drive to the grocery store. Make sure you park as closely as possible\nto the entrance of the store. Once inside, pick up a cart and check the aisles for the items you need.\nCollect all items in your cart and proceed to the register. Pay for the items and take the cart\nto your car. Move the items from the cart into the trunk of your car. Then return the cart to the store,\nreturn to your car, and drive home."
+                },
+                "bad_prompts": {
+                    "dataset": "mlabonne/harmless_alpaca",
+                    "split": "train[:400]",
+                    "column": "text",
+                    "system_prompt": "You are a loquacious personal assistant. You give elaborate, highly detailed responses to every prompt.\nYour responses contain proper introductions and start with a summary of the task or question.\nYou supply as much additional information as possible and write everything out in full detail."
+                }
+            }
+        }
+    },
+    "parameters": {
+        "start_layer_index": 6,
+        "end_layer_index": 36,
+        "preserve_good_behavior_weight": 0.9476914693965006,
+        "steer_bad_behavior_weight": 0.018201451394918428,
+        "overcorrect_relative_weight": 0.7324583477921,
+        "neighbor_count": 11
+    },
+    "scores": [
+        {
+            "name": "Mean response length",
+            "score": {
+                "value": 152.35,
+                "rich_display": "[bold]152.3[/]",
+                "md_display": "152.3"
+            },
+            "baseline": {
+                "value": 1418.45,
+                "rich_display": "[bold]1418.5[/]",
+                "md_display": "1418.5"
+            }
+        },
+        {
+            "name": "PIQA acc_norm",
+            "score": {
+                "value": 0.7752992383025027,
+                "rich_display": "[bold]0.7753[/]",
+                "md_display": "0.7753"
+            },
+            "baseline": {
+                "value": 0.7829162132752993,
+                "rich_display": "[bold]0.7829[/]",
+                "md_display": "0.7829"
+            }
+        }
+    ],
+    "hashes": {
+        "model-00001-of-00002.safetensors": "407af7191d7cacb3da04baf444c09daa2105bbcee3f1c5075a019f7b734ac416",
+        "model-00002-of-00002.safetensors": "41af2a124a04aafe6547bfe76bfc737f7263c897feb80afda88896e57f680d9a"
+    }
+}

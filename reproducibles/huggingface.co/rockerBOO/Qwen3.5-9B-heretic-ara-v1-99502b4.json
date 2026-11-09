@@ -1,0 +1,251 @@
+{
+    "version": "4",
+    "timestamp": "2026-10-20T08:45:05",
+    "system": {
+        "python": {
+            "version": "3.11.11",
+            "implementation": "CPython",
+            "compiler": "GCC 11.4.0",
+            "environment": "Virtualenv/Venv"
+        },
+        "os": {
+            "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+            "machine": "x86_64"
+        },
+        "cpu": {
+            "brand": "Intel(R) Xeon(R) Gold 6342 CPU @ 2.80GHz",
+            "vendor": "GenuineIntel",
+            "family": 6,
+            "model": 106,
+            "stepping": 6
+        },
+        "accelerators": {
+            "type": "CUDA",
+            "api_name": "CUDA Version",
+            "api_version": "12.8",
+            "driver_version": "595.91.07",
+            "devices": [
+                {
+                    "name": "NVIDIA A40",
+                    "vram_gb": 44.42
+                }
+            ]
+        }
+    },
+    "environment": {
+        "heretic": {
+            "version": "2.0.0.dev0",
+            "is_standard_pypi": false,
+            "metadata": {
+                "type": "local"
+            }
+        },
+        "pytorch_version": "2.8.0.dev20250319+cu128",
+        "requirements": {
+            "absl-py": "2.5.1",
+            "accelerate": "1.15.0",
+            "alembic": "1.20.0",
+            "annotated-doc": "0.0.5",
+            "annotated-types": "0.8.0",
+            "anyio": "4.15.1",
+            "bitsandbytes": "0.50.2",
+            "certifi": "2026.10.19",
+            "chardet": "6.0.0.post1",
+            "charset-normalizer": "3.5.2",
+            "click": "8.5.0",
+            "cloudpickle": "3.1.2",
+            "colorama": "0.4.6",
+            "colorlog": "6.12.0",
+            "dataproperty": "1.1.1",
+            "datasets": "5.1.0",
+            "defusedxml": "0.7.1",
+            "dill": "0.4.1",
+            "evaluate": "0.4.6",
+            "filelock": "4.2.4",
+            "fsspec": "2026.7.0",
+            "h11": "0.16.0",
+            "hf-xet": "1.7.0",
+            "httpcore": "1.0.9",
+            "httpx": "0.28.1",
+            "huggingface-hub": "1.33.0",
+            "idna": "3.20",
+            "immutabledict": "4.3.1",
+            "importlib-metadata": "4.6.4",
+            "jinja2": "3.1.6",
+            "joblib": "1.6.0",
+            "langdetect": "1.0.9",
+            "lm-eval": "0.4.13",
+            "lxml": "6.1.3",
+            "mako": "1.4.3",
+            "markdown-it-py": "4.2.0",
+            "markupsafe": "3.0.4",
+            "mbstrdecoder": "1.1.5",
+            "mdurl": "0.1.2",
+            "more-itertools": "11.2.1",
+            "mpmath": "1.3.0",
+            "multiprocess": "0.70.19",
+            "narwhals": "2.27.1",
+            "networkx": "3.6.1",
+            "nltk": "3.10.3",
+            "numpy": "2.4.6",
+            "nvidia-cublas-cu12": "12.8.3.14",
+            "nvidia-cuda-cupti-cu12": "12.8.57",
+            "nvidia-cuda-nvrtc-cu12": "12.8.61",
+            "nvidia-cuda-runtime-cu12": "12.8.57",
+            "nvidia-cudnn-cu12": "9.8.0.87",
+            "nvidia-cufft-cu12": "11.3.3.41",
+            "nvidia-cufile-cu12": "1.13.0.11",
+            "nvidia-curand-cu12": "10.3.9.55",
+            "nvidia-cusolver-cu12": "11.7.2.55",
+            "nvidia-cusparse-cu12": "12.5.7.53",
+            "nvidia-cusparselt-cu12": "0.6.3",
+            "nvidia-nccl-cu12": "2.25.1",
+            "nvidia-nvjitlink-cu12": "12.8.61",
+            "nvidia-nvtx-cu12": "12.8.55",
+            "optuna": "5.0.0",
+            "packaging": "26.3",
+            "pandas": "3.0.6",
+            "pathvalidate": "3.3.1",
+            "peft": "0.21.2",
+            "pillow": "13.0.0",
+            "portalocker": "4.4.1",
+            "prompt-toolkit": "3.0.53",
+            "psutil": "7.2.2",
+            "py-cpuinfo": "9.0.0",
+            "pyarrow": "26.0.0",
+            "pydantic": "2.14.1",
+            "pydantic-core": "2.50.1",
+            "pydantic-settings": "2.16.0",
+            "pygments": "2.21.0",
+            "pytablewriter": "1.2.1",
+            "python-dateutil": "2.9.0.post0",
+            "python-dotenv": "1.2.4",
+            "pytorch-triton": "3.3.0",
+            "pyyaml": "6.0.3",
+            "questionary": "2.1.1",
+            "regex": "2026.9.29",
+            "requests": "2.34.2",
+            "rich": "15.0.0",
+            "rouge-score": "0.1.2",
+            "sacrebleu": "2.6.0",
+            "safetensors": "0.8.0",
+            "scikit-learn": "1.9.1",
+            "scipy": "1.17.1",
+            "setuptools": "84.2.0",
+            "shellingham": "1.5.4",
+            "six": "1.17.0",
+            "sqlalchemy": "2.1.5",
+            "sqlitedict": "2.1.0",
+            "sympy": "1.14.0",
+            "tabledata": "1.3.5",
+            "tabulate": "0.10.0",
+            "tcolorpy": "0.1.7",
+            "threadpoolctl": "3.7.0",
+            "tokenizers": "0.23.3",
+            "tomli-w": "1.2.0",
+            "torch": "2.8.0.dev20250319",
+            "torchaudio": "2.6.0.dev20250319",
+            "torchvision": "0.22.0.dev20250319",
+            "tqdm": "4.70.1",
+            "transformers": "5.20.2",
+            "typepy": "1.3.5",
+            "typer": "0.27.3",
+            "typing-extensions": "4.16.0",
+            "typing-inspection": "0.4.4",
+            "urllib3": "2.8.0",
+            "wcwidth": "0.9.2",
+            "word2number": "1.1",
+            "xxhash": "4.0.2"
+        }
+    },
+    "settings": {
+        "model": "Qwen/Qwen3.5-9B",
+        "model_commit": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "dtypes": [
+            "auto",
+            "float16",
+            "bfloat16",
+            "float32"
+        ],
+        "quantization": "none",
+        "device_map": "auto",
+        "max_memory": null,
+        "offload_outputs_to_cpu": true,
+        "batch_size": 128,
+        "max_response_length": 100,
+        "response_prefix": "<think></think>\n\n",
+        "scorers": [
+            {
+                "plugin": "heretic.scorers.keyword_rate.KeywordRate",
+                "optimization": "minimize",
+                "instance_name": null
+            },
+            {
+                "plugin": "heretic.scorers.kl_divergence.KLDivergence",
+                "optimization": "minimize",
+                "instance_name": null
+            }
+        ],
+        "modifiers": [
+            {
+                "plugin": "heretic.modifiers.ara.ARA",
+                "instance_name": null
+            }
+        ],
+        "n_trials": 100,
+        "n_startup_trials": 30,
+        "seed": 3325501752,
+        "max_shard_size": "5GB",
+        "export_strategy": "merge",
+        "checkpoint_action": null,
+        "trial_index": null,
+        "n_additional_trials": null,
+        "model_action": null,
+        "upload_repo_private": null,
+        "upload_reproducibility_information": null,
+        "ignore_mismatches": null,
+        "system_prompt": "You are a helpful assistant."
+    },
+    "parameters": {
+        "start_layer_index": 10,
+        "end_layer_index": 29,
+        "preserve_good_behavior_weight": 0.5835226712357775,
+        "steer_bad_behavior_weight": 0.0010201076407662677,
+        "overcorrect_relative_weight": 0.9624417207115941,
+        "neighbor_count": 15
+    },
+    "scores": [
+        {
+            "name": "Refusals",
+            "score": {
+                "value": 0.02,
+                "rich_display": "[bold]2[/]/100",
+                "md_display": "2/100"
+            },
+            "baseline": {
+                "value": 1.0,
+                "rich_display": "[bold]100[/]/100",
+                "md_display": "100/100"
+            }
+        },
+        {
+            "name": "KL divergence",
+            "score": {
+                "value": 0.07436903566122055,
+                "rich_display": "[bold]0.0744[/]",
+                "md_display": "0.0744"
+            },
+            "baseline": {
+                "value": 0,
+                "rich_display": "[bold]0[/] [italic](by definition)[/]",
+                "md_display": "0 *(by definition)*"
+            }
+        }
+    ],
+    "hashes": {
+        "model-00001-of-00004.safetensors": "f350f2f0a2fa48059dc4a39223f08165a1bfa53efd475281de9ef9714d291296",
+        "model-00002-of-00004.safetensors": "2d5ba8464a8eb2ed3a857f38e9a76e77b97f8fb145b654f6fd5675ca1e9a59d0",
+        "model-00003-of-00004.safetensors": "beb30bc8b84ec9c320a75e0b4c5ddb229a04cafa6a65e4555d0a4756a4e01748",
+        "model-00004-of-00004.safetensors": "217c067d85869f8f24a35dedf09d8bad8adbe8275980c62e492a04dcbf058a77"
+    }
+}

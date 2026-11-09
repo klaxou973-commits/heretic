@@ -1,0 +1,247 @@
+{
+    "version": "3",
+    "timestamp": "2026-09-12T04:56:36",
+    "environment": {
+        "heretic": {
+            "version": "2.0.0.dev0",
+            "is_standard_pypi": false,
+            "metadata": {
+                "type": "local"
+            }
+        },
+        "pytorch_version": "2.12.0+cu130",
+        "requirements": {
+            "absl-py": "2.4.0",
+            "accelerate": "1.13.0",
+            "alembic": "1.18.4",
+            "annotated-doc": "0.0.4",
+            "annotated-types": "0.7.0",
+            "anyio": "4.13.0",
+            "bitsandbytes": "0.49.2",
+            "certifi": "2026.5.20",
+            "chardet": "6.0.0.post1",
+            "charset-normalizer": "3.4.7",
+            "click": "8.4.1",
+            "colorama": "0.4.6",
+            "colorlog": "6.10.1",
+            "cuda-bindings": "13.3.0",
+            "cuda-pathfinder": "1.5.5",
+            "cuda-toolkit": "13.0.2",
+            "dataproperty": "1.1.1",
+            "datasets": "4.8.5",
+            "dill": "0.4.1",
+            "evaluate": "0.4.6",
+            "filelock": "3.29.0",
+            "fsspec": "2026.2.0",
+            "greenlet": "3.5.1",
+            "h11": "0.16.0",
+            "hf-xet": "1.5.0",
+            "httpcore": "1.0.9",
+            "httpx": "0.28.1",
+            "huggingface-hub": "1.16.4",
+            "idna": "3.16",
+            "immutabledict": "4.3.1",
+            "jinja2": "3.1.6",
+            "joblib": "1.5.3",
+            "langdetect": "1.0.9",
+            "lm-eval": "0.4.12",
+            "lxml": "6.1.1",
+            "mako": "1.3.12",
+            "markdown-it-py": "4.2.0",
+            "markupsafe": "3.0.3",
+            "mbstrdecoder": "1.1.5",
+            "mdurl": "0.1.2",
+            "more-itertools": "11.1.0",
+            "mpmath": "1.3.0",
+            "multiprocess": "0.70.19",
+            "networkx": "3.6.1",
+            "nltk": "3.9.4",
+            "numpy": "2.4.6",
+            "nvidia-cublas": "13.1.1.3",
+            "nvidia-cuda-nvrtc": "13.0.88",
+            "nvidia-cudnn-cu13": "9.20.0.48",
+            "nvidia-cusparselt-cu13": "0.8.1",
+            "nvidia-nccl-cu13": "2.29.7",
+            "nvidia-nvshmem-cu13": "3.4.5",
+            "optuna": "4.8.0",
+            "packaging": "26.2",
+            "pandas": "3.0.3",
+            "pathvalidate": "3.3.1",
+            "peft": "0.19.1",
+            "pillow": "12.3.0",
+            "portalocker": "3.2.0",
+            "prompt-toolkit": "3.0.52",
+            "psutil": "7.2.2",
+            "py-cpuinfo": "9.0.0",
+            "pyarrow": "24.0.0",
+            "pydantic": "2.13.4",
+            "pydantic-core": "2.46.4",
+            "pydantic-settings": "2.14.1",
+            "pygments": "2.20.0",
+            "pytablewriter": "1.2.1",
+            "python-dateutil": "2.9.0.post0",
+            "python-dotenv": "1.2.2",
+            "pyyaml": "6.0.3",
+            "questionary": "2.1.1",
+            "regex": "2026.5.9",
+            "requests": "2.34.2",
+            "rich": "14.3.4",
+            "rouge-score": "0.1.2",
+            "sacrebleu": "2.6.0",
+            "safetensors": "0.8.0",
+            "scikit-learn": "1.8.0",
+            "scipy": "1.17.1",
+            "setuptools": "81.0.0",
+            "shellingham": "1.5.4",
+            "six": "1.17.0",
+            "sqlalchemy": "2.0.50",
+            "sqlitedict": "2.1.0",
+            "sympy": "1.14.0",
+            "tabledata": "1.3.5",
+            "tabulate": "0.10.0",
+            "tcolorpy": "0.1.7",
+            "threadpoolctl": "3.6.0",
+            "tokenizers": "0.23.0rc0",
+            "tomli-w": "1.2.0",
+            "torch": "2.12.0",
+            "torchvision": "0.27.0",
+            "tqdm": "4.67.3",
+            "transformers": "5.15.0",
+            "triton": "3.7.0",
+            "typepy": "1.3.5",
+            "typer": "0.25.1",
+            "typing-extensions": "4.15.0",
+            "typing-inspection": "0.4.2",
+            "urllib3": "2.7.0",
+            "wcwidth": "0.7.0",
+            "word2number": "1.1",
+            "xxhash": "3.7.0"
+        }
+    },
+    "settings": {
+        "model": "TheDrummer/Artemis-31B-v1.1",
+        "model_commit": "d613e5a4ee45e0fcf1f61ea3e10b6438bbe421cc",
+        "dtypes": [
+            "auto",
+            "float16",
+            "bfloat16",
+            "float32"
+        ],
+        "quantization": "none",
+        "device_map": "auto",
+        "max_memory": null,
+        "offload_outputs_to_cpu": true,
+        "batch_size": 64,
+        "max_response_length": 100,
+        "response_prefix": "",
+        "scorers": [
+            {
+                "plugin": "heretic.scorers.keyword_rate.KeywordRate",
+                "optimization": "minimize",
+                "instance_name": null
+            },
+            {
+                "plugin": "heretic.scorers.kl_divergence.KLDivergence",
+                "optimization": "minimize",
+                "instance_name": null
+            }
+        ],
+        "orthogonalize_direction": true,
+        "row_normalization": "full",
+        "full_normalization_lora_rank": 3,
+        "winsorization_quantile": 1.0,
+        "n_trials": 600,
+        "n_startup_trials": 60,
+        "seed": 1648313989,
+        "max_shard_size": "5GB",
+        "export_strategy": "merge",
+        "checkpoint_action": null,
+        "trial_index": null,
+        "n_additional_trials": null,
+        "model_action": null,
+        "upload_repo_private": null,
+        "upload_reproducibility_information": null,
+        "ignore_mismatches": null,
+        "system_prompt": "You are a helpful assistant.",
+        "good_prompts": {
+            "dataset": "mlabonne/harmless_alpaca",
+            "commit": "02c6a92cfcf11bb0c387334f8146d149d65b587f",
+            "config": null,
+            "split": "train[:400]",
+            "column": "text",
+            "prefix": "",
+            "suffix": "",
+            "system_prompt": null
+        },
+        "bad_prompts": {
+            "dataset": "mlabonne/harmful_behaviors",
+            "commit": "01cead01398926d81f7c52bdb790ee8cf77ebba7",
+            "config": null,
+            "split": "train[:400]",
+            "column": "text",
+            "prefix": "",
+            "suffix": "",
+            "system_prompt": null
+        }
+    },
+    "parameters": {
+        "direction_index": 45.56629215401456,
+        "abliteration_parameters": {
+            "attn.o_proj": {
+                "max_weight": 0.9783766705775725,
+                "max_weight_position": 58.423571481263586,
+                "min_weight": 0.4220973445117231,
+                "min_weight_distance": 13.466564378730492
+            },
+            "mlp.down_proj": {
+                "max_weight": 1.3937680825003218,
+                "max_weight_position": 37.5609836126818,
+                "min_weight": 0.5277930759157807,
+                "min_weight_distance": 16.219346326241862
+            }
+        }
+    },
+    "scores": [
+        {
+            "name": "Refusals",
+            "score": {
+                "value": 0.3,
+                "rich_display": "[bold]30[/]/100",
+                "md_display": "30/100"
+            },
+            "baseline": {
+                "value": 0.9,
+                "rich_display": "[bold]90[/]/100",
+                "md_display": "90/100"
+            }
+        },
+        {
+            "name": "KL divergence",
+            "score": {
+                "value": 0.008289276622235775,
+                "rich_display": "[bold]0.0083[/]",
+                "md_display": "0.0083"
+            },
+            "baseline": {
+                "value": 0,
+                "rich_display": "[bold]0[/] [italic](by definition)[/]",
+                "md_display": "0 *(by definition)*"
+            }
+        }
+    ],
+    "hashes": {
+        "model-00001-of-00013.safetensors": "b611f7263e606149bf1940e6712abd9252e522aff77d7fc5735403440c359bad",
+        "model-00002-of-00013.safetensors": "7de7883d8169f515e2717799579f92d3b931cb0a840011903f49bcca6e1e4c8b",
+        "model-00003-of-00013.safetensors": "5f4d8ebfeecdedbfd8327307847c057110147c8a65cfaa987c7efa4a854b03e9",
+        "model-00004-of-00013.safetensors": "69958e7db8b3056496992b60108f7518b198e13d610cf9ff259d43cbe17a3dcd",
+        "model-00005-of-00013.safetensors": "6deecf6b05a8a3136effd51a86a0faa98dd2f72a3c8356e8cc5a4695aeb9da88",
+        "model-00006-of-00013.safetensors": "bb8c3272e57367dd20dff7504d717d6d2d0d2e7bd35557732efff69ddc0b0fb0",
+        "model-00007-of-00013.safetensors": "19267ce7e9e44808622151618681fff7e9a1622217b6a0b867bc8fd86869a03f",
+        "model-00008-of-00013.safetensors": "b92ab91054bdc90e00b189a613ace2024faedeaf0e8b277cd32f653d3424cbf0",
+        "model-00009-of-00013.safetensors": "d16f7eb86bf6890a2484b453cd087970e4a3a7edc2ab5fb88793f1f21dfa7f17",
+        "model-00010-of-00013.safetensors": "f2ef4e13bf4f4bc3de0a6ca7f05c72fdf93de7f4a1b184482a72fe76f4560f60",
+        "model-00011-of-00013.safetensors": "6377e592ecd4feee4626b150aa6a742a1346a1a08e548642dca28e5dd3f87b4c",
+        "model-00012-of-00013.safetensors": "9f97de4500db3179fe8ce3257ccd8fd4102694a80d8d424944d17942faa8a34a",
+        "model-00013-of-00013.safetensors": "b102bdd8a5629491d1bc03f3836834fdbb60f30d0eb75c2bc456c83ac67a62d9"
+    }
+}

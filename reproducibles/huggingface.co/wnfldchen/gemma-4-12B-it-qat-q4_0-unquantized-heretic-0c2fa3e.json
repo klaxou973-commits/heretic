@@ -1,0 +1,274 @@
+{
+    "version": "3",
+    "timestamp": "2026-07-17T02:49:13",
+    "system": {
+        "python": {
+            "version": "3.12.13",
+            "implementation": "CPython",
+            "compiler": "GCC 14.3.0",
+            "environment": "Conda"
+        },
+        "os": {
+            "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.39",
+            "machine": "x86_64"
+        },
+        "cpu": {
+            "brand": "AMD EPYC 7443 24-Core Processor",
+            "vendor": "AuthenticAMD",
+            "family": 25,
+            "model": 1,
+            "stepping": 1
+        },
+        "accelerators": {
+            "type": "CUDA",
+            "api_name": "CUDA Version",
+            "api_version": "13.0",
+            "driver_version": "595.58.03",
+            "devices": [
+                {
+                    "name": "NVIDIA RTX 6000 Ada Generation",
+                    "vram_gb": 47.38
+                }
+            ]
+        }
+    },
+    "environment": {
+        "heretic": {
+            "version": "1.4.0",
+            "is_standard_pypi": false,
+            "metadata": {
+                "type": "git",
+                "url": "https://github.com/wnfldchen/heretic.git",
+                "commit_hash": "7a4a5b68317452382194d2a03d8942ac239ac06d",
+                "requested_revision": "ara"
+            }
+        },
+        "pytorch_version": "2.12.0+cu130",
+        "requirements": {
+            "absl-py": "2.5.0",
+            "accelerate": "1.14.0",
+            "alembic": "1.18.5",
+            "annotated-doc": "0.0.4",
+            "annotated-types": "0.7.0",
+            "anyio": "4.13.0",
+            "bitsandbytes": "0.49.2",
+            "certifi": "2026.5.20",
+            "chardet": "6.0.0.post1",
+            "charset-normalizer": "3.4.9",
+            "click": "8.4.1",
+            "colorama": "0.4.6",
+            "colorlog": "6.10.1",
+            "cuda-bindings": "13.3.1",
+            "cuda-pathfinder": "1.5.5",
+            "cuda-toolkit": "13.0.2",
+            "dataproperty": "1.1.1",
+            "datasets": "4.8.5",
+            "defusedxml": "0.7.1",
+            "dill": "0.4.1",
+            "evaluate": "0.4.6",
+            "filelock": "3.29.1",
+            "fsspec": "2026.2.0",
+            "greenlet": "3.5.3",
+            "h11": "0.16.0",
+            "hf-xet": "1.5.0",
+            "httpcore": "1.0.9",
+            "httpx": "0.28.1",
+            "huggingface-hub": "1.18.0",
+            "idna": "3.18",
+            "immutabledict": "4.3.1",
+            "jinja2": "3.1.6",
+            "joblib": "1.5.3",
+            "langdetect": "1.0.9",
+            "lm-eval": "0.4.12",
+            "lxml": "6.1.1",
+            "mako": "1.3.12",
+            "markdown-it-py": "4.2.0",
+            "markupsafe": "3.0.3",
+            "mbstrdecoder": "1.1.5",
+            "mdurl": "0.1.2",
+            "more-itertools": "11.1.0",
+            "mpmath": "1.3.0",
+            "multiprocess": "0.70.19",
+            "narwhals": "2.24.0",
+            "networkx": "3.6.1",
+            "nltk": "3.10.0",
+            "numpy": "2.4.6",
+            "nvidia-cublas": "13.1.1.3",
+            "nvidia-cuda-nvrtc": "13.0.88",
+            "nvidia-cudnn-cu13": "9.20.0.48",
+            "nvidia-cusparselt-cu13": "0.8.1",
+            "nvidia-nccl-cu13": "2.29.7",
+            "nvidia-nvshmem-cu13": "3.4.5",
+            "optuna": "4.9.0",
+            "packaging": "26.2",
+            "pandas": "3.0.3",
+            "pathvalidate": "3.3.1",
+            "peft": "0.19.1",
+            "pillow": "12.2.0",
+            "portalocker": "3.2.0",
+            "prompt-toolkit": "3.0.52",
+            "psutil": "7.2.2",
+            "py-cpuinfo": "9.0.0",
+            "pyarrow": "25.0.0",
+            "pydantic": "2.13.4",
+            "pydantic-core": "2.46.4",
+            "pydantic-settings": "2.14.2",
+            "pygments": "2.20.0",
+            "pytablewriter": "1.2.1",
+            "python-dateutil": "2.9.0.post0",
+            "python-dotenv": "1.2.2",
+            "pyyaml": "6.0.3",
+            "questionary": "2.1.1",
+            "regex": "2026.7.10",
+            "requests": "2.34.2",
+            "rich": "14.3.4",
+            "rouge-score": "0.1.2",
+            "sacrebleu": "2.6.0",
+            "safetensors": "0.8.0",
+            "scikit-learn": "1.9.0",
+            "scipy": "1.18.0",
+            "setuptools": "81.0.0",
+            "shellingham": "1.5.4",
+            "six": "1.17.0",
+            "sqlalchemy": "2.0.51",
+            "sqlitedict": "2.1.0",
+            "sympy": "1.14.0",
+            "tabledata": "1.3.5",
+            "tabulate": "0.10.0",
+            "tcolorpy": "0.1.7",
+            "threadpoolctl": "3.6.0",
+            "tokenizers": "0.22.2",
+            "tomli-w": "1.2.0",
+            "torch": "2.12.0",
+            "torchvision": "0.27.0",
+            "tqdm": "4.68.0",
+            "transformers": "5.14.1",
+            "triton": "3.7.0",
+            "typepy": "1.3.5",
+            "typer": "0.25.1",
+            "typing-extensions": "4.15.0",
+            "typing-inspection": "0.4.2",
+            "urllib3": "2.7.0",
+            "wcwidth": "0.7.0",
+            "word2number": "1.1",
+            "xxhash": "3.8.1"
+        }
+    },
+    "settings": {
+        "model": "google/gemma-4-12B-it-qat-q4_0-unquantized",
+        "model_commit": "b8dea52d5ea56a20e8872f0ee5d25ada7501327e",
+        "dtypes": [
+            "auto",
+            "float16",
+            "bfloat16",
+            "float32"
+        ],
+        "quantization": "bnb_4bit",
+        "device_map": "auto",
+        "max_memory": null,
+        "offload_outputs_to_cpu": true,
+        "batch_size": 400,
+        "max_response_length": 100,
+        "response_prefix": "",
+        "scorers": [
+            {
+                "plugin": "heretic.scorers.keyword_rate.KeywordRate",
+                "optimization": "minimize",
+                "instance_name": null
+            },
+            {
+                "plugin": "heretic.scorers.kl_divergence.KLDivergence",
+                "optimization": "minimize",
+                "instance_name": null
+            }
+        ],
+        "target_components": [
+            "attn.o_proj",
+            "mlp.down_proj"
+        ],
+        "use_ara": true,
+        "use_ara_lora": true,
+        "ara_lora_rank": 128,
+        "use_piqa": false,
+        "orthogonalize_direction": true,
+        "row_normalization": "full",
+        "full_normalization_lora_rank": 3,
+        "winsorization_quantile": 1.0,
+        "n_trials": 200,
+        "n_startup_trials": 60,
+        "seed": 3321268322,
+        "max_shard_size": "5GB",
+        "export_strategy": "merge",
+        "checkpoint_action": null,
+        "trial_index": null,
+        "n_additional_trials": null,
+        "model_action": null,
+        "upload_repo_private": null,
+        "upload_reproducibility_information": null,
+        "ignore_mismatches": null,
+        "system_prompt": "You are a helpful assistant.",
+        "good_prompts": {
+            "dataset": "mlabonne/harmless_alpaca",
+            "commit": "02c6a92cfcf11bb0c387334f8146d149d65b587f",
+            "split": "train[:400]",
+            "column": "text",
+            "prefix": "",
+            "suffix": "",
+            "system_prompt": null
+        },
+        "bad_prompts": {
+            "dataset": "mlabonne/harmful_behaviors",
+            "commit": "01cead01398926d81f7c52bdb790ee8cf77ebba7",
+            "split": "train[:400]",
+            "column": "text",
+            "prefix": "",
+            "suffix": "",
+            "system_prompt": null
+        }
+    },
+    "parameters": {
+        "ara_parameters": {
+            "start_layer_index": 19,
+            "end_layer_index": 42,
+            "preserve_good_behavior_weight": 0.9174265879020344,
+            "steer_bad_behavior_weight": 0.00035487139231897693,
+            "overcorrect_relative_weight": 0.9004150220197629,
+            "neighbor_count": 13
+        }
+    },
+    "scores": [
+        {
+            "name": "Keywords",
+            "score": {
+                "value": 0.11,
+                "rich_display": "11/100",
+                "md_display": "11/100"
+            },
+            "baseline": {
+                "value": 0.99,
+                "rich_display": "99/100",
+                "md_display": "99/100"
+            }
+        },
+        {
+            "name": "KL divergence",
+            "score": {
+                "value": 0.06056741625070572,
+                "rich_display": "0.0606",
+                "md_display": "0.0606"
+            },
+            "baseline": {
+                "value": 0,
+                "rich_display": "0 (by definition)",
+                "md_display": "0 *(by definition)*"
+            }
+        }
+    ],
+    "hashes": {
+        "model-00001-of-00005.safetensors": "513abfa92c7c190e3a3fd355ba4759d268ef8b2e049cc861c649d69e8e2cb40d",
+        "model-00002-of-00005.safetensors": "ebfb917e2b0fd6f07942fc12015a803787b536e105530982a076203fc6be5486",
+        "model-00003-of-00005.safetensors": "eef00b050d6d5cbeb729bb3432f72a93c6215be51fc80e67bd4733cc553c3157",
+        "model-00004-of-00005.safetensors": "5c194b3a9265d7fcf8b6e43b39fdf50c9585319eda992311537b8191a69134a9",
+        "model-00005-of-00005.safetensors": "0d47512634e13c2d322bbe574e7e9b6dc26a8dc4f273d3964491b5583c54bf4e"
+    }
+}

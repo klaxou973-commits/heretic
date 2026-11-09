@@ -1,0 +1,275 @@
+{
+    "version": "4",
+    "timestamp": "2026-11-05T18:22:43",
+    "system": {
+        "python": {
+            "version": "3.12.16",
+            "implementation": "CPython",
+            "compiler": "Clang 23.1.3 ",
+            "environment": "Virtualenv/Venv"
+        },
+        "os": {
+            "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+            "machine": "x86_64"
+        },
+        "cpu": {
+            "brand": "AMD EPYC 9355 32-Core Processor",
+            "vendor": "AuthenticAMD",
+            "family": 26,
+            "model": 2,
+            "stepping": 1
+        },
+        "accelerators": {
+            "type": "CUDA",
+            "api_name": "CUDA Version",
+            "api_version": "13.0",
+            "driver_version": "580.126.09",
+            "devices": [
+                {
+                    "name": "NVIDIA H200 NVL",
+                    "vram_gb": 139.8
+                }
+            ]
+        }
+    },
+    "environment": {
+        "heretic": {
+            "version": "2.0.0",
+            "is_standard_pypi": false,
+            "metadata": {
+                "type": "local"
+            }
+        },
+        "pytorch_version": "2.14.1+cu130",
+        "requirements": {
+            "absl-py": "2.5.0",
+            "accelerate": "1.15.0",
+            "alembic": "1.20.0",
+            "annotated-doc": "0.0.5",
+            "annotated-types": "0.8.0",
+            "anyio": "4.15.1",
+            "bitsandbytes": "0.50.2",
+            "certifi": "2026.7.22",
+            "chardet": "6.0.0.post1",
+            "charset-normalizer": "3.5.2",
+            "click": "8.5.0",
+            "cloudpickle": "3.1.2",
+            "colorama": "0.4.6",
+            "colorlog": "6.12.0",
+            "cuda-bindings": "13.4.4",
+            "cuda-pathfinder": "1.8.5",
+            "cuda-toolkit": "13.0.3.0",
+            "dataproperty": "1.1.1",
+            "datasets": "5.0.1",
+            "defusedxml": "0.7.1",
+            "dill": "0.4.1",
+            "evaluate": "0.4.6",
+            "filelock": "4.2.8",
+            "fsspec": "2026.9.0",
+            "h11": "0.16.0",
+            "hf-xet": "1.6.0",
+            "httpcore": "1.0.9",
+            "httpx": "0.28.1",
+            "huggingface-hub": "1.33.0",
+            "idna": "3.20",
+            "immutabledict": "4.3.1",
+            "jinja2": "3.1.6",
+            "joblib": "1.6.0",
+            "langdetect": "1.0.9",
+            "lm-eval": "0.4.13",
+            "lxml": "6.1.3",
+            "mako": "1.4.3",
+            "markdown-it-py": "4.2.0",
+            "markupsafe": "3.0.4",
+            "mbstrdecoder": "1.1.5",
+            "mdurl": "0.1.2",
+            "more-itertools": "11.1.0",
+            "mpmath": "1.3.0",
+            "multiprocess": "0.70.19",
+            "narwhals": "2.26.0",
+            "networkx": "3.7",
+            "nltk": "3.10.3",
+            "numpy": "2.5.4",
+            "nvidia-cublas": "13.1.1.3",
+            "nvidia-cuda-nvrtc": "13.0.88",
+            "nvidia-cudnn-cu13": "9.24.0.43",
+            "nvidia-cusparselt-cu13": "0.8.1",
+            "nvidia-nccl-cu13": "2.30.7",
+            "nvidia-nvshmem-cu13": "3.4.5",
+            "optuna": "5.0.0",
+            "packaging": "26.3",
+            "pandas": "3.0.6",
+            "pathvalidate": "3.3.1",
+            "peft": "0.21.2",
+            "pillow": "13.0.0",
+            "portalocker": "4.4.0",
+            "prompt-toolkit": "3.0.53",
+            "psutil": "7.2.2",
+            "py-cpuinfo": "9.0.0",
+            "pyarrow": "25.0.1",
+            "pydantic": "2.13.5",
+            "pydantic-core": "2.46.5",
+            "pydantic-settings": "2.15.0",
+            "pygments": "2.21.0",
+            "pytablewriter": "1.2.1",
+            "python-dateutil": "2.9.0.post0",
+            "python-dotenv": "1.2.4",
+            "pyyaml": "6.0.3",
+            "questionary": "2.1.1",
+            "regex": "2026.9.29",
+            "requests": "2.34.2",
+            "rich": "15.0.0",
+            "rouge-score": "0.1.2",
+            "sacrebleu": "2.6.0",
+            "safetensors": "0.8.0",
+            "scikit-learn": "1.9.1",
+            "scipy": "1.18.1",
+            "setuptools": "84.2.1",
+            "shellingham": "1.5.4",
+            "six": "1.17.0",
+            "sqlalchemy": "2.1.1",
+            "sqlitedict": "2.1.0",
+            "sympy": "1.14.0",
+            "tabledata": "1.3.5",
+            "tabulate": "0.10.0",
+            "tcolorpy": "0.1.7",
+            "threadpoolctl": "3.7.0",
+            "tokenizers": "0.23.2",
+            "tomli-w": "1.2.0",
+            "torch": "2.14.1",
+            "torchvision": "0.29.2",
+            "tqdm": "4.70.1",
+            "transformers": "5.18.0",
+            "triton": "3.8.0",
+            "typepy": "1.3.5",
+            "typer": "0.27.2",
+            "typing-extensions": "4.16.0",
+            "typing-inspection": "0.4.4",
+            "urllib3": "2.8.0",
+            "wcwidth": "0.9.1",
+            "word2number": "1.1",
+            "xxhash": "4.0.1"
+        }
+    },
+    "settings": {
+        "model": "allenai/Olmo-3.1-32B-Instruct",
+        "model_commit": "ac0587e4a7744a551c059d8cd17ba220bc940dae",
+        "dtypes": [
+            "auto",
+            "float16",
+            "bfloat16",
+            "float32"
+        ],
+        "quantization": "none",
+        "device_map": "auto",
+        "max_memory": null,
+        "offload_outputs_to_cpu": true,
+        "batch_size": 128,
+        "max_response_length": 100,
+        "response_prefix": "",
+        "scorers": [
+            {
+                "plugin": "heretic.scorers.keyword_rate.KeywordRate",
+                "optimization": "minimize",
+                "instance_name": null
+            },
+            {
+                "plugin": "heretic.scorers.kl_divergence.KLDivergence",
+                "optimization": "minimize",
+                "instance_name": null
+            }
+        ],
+        "modifiers": [
+            {
+                "plugin": "heretic.modifiers.abliteration.Abliteration",
+                "instance_name": null
+            }
+        ],
+        "n_trials": 100,
+        "n_startup_trials": 30,
+        "seed": 1,
+        "modified_model_type": "decensored",
+        "max_shard_size": "5GB",
+        "export_strategy": "merge",
+        "checkpoint_action": "continue",
+        "trial_index": 9,
+        "n_additional_trials": null,
+        "model_action": "upload",
+        "upload_repo_private": false,
+        "upload_reproducibility_information": "full",
+        "upload_tags": [
+            "uncensored",
+            "decensored",
+            "abliterated"
+        ],
+        "ignore_mismatches": null,
+        "system_prompt": "You are a helpful assistant.",
+        "modifier": {
+            "Abliteration": {
+                "orthogonalize_direction": false,
+                "row_normalization": "none"
+            }
+        }
+    },
+    "parameters": {
+        "direction_index": 55.19823220434477,
+        "weight_distributions": {
+            "attn.o_proj": {
+                "max_weight": 1.2700078456129247,
+                "max_weight_position": 40.181778956734135,
+                "min_weight": 0.5843534877724146,
+                "min_weight_distance": 16.18284558229651
+            },
+            "mlp.down_proj": {
+                "max_weight": 1.3682366602988951,
+                "max_weight_position": 38.334340819792956,
+                "min_weight": 1.1643984909135023,
+                "min_weight_distance": 19.61644505897685
+            }
+        }
+    },
+    "scores": [
+        {
+            "name": "Refusals",
+            "score": {
+                "value": 0.88,
+                "rich_display": "[bold]88[/]/100",
+                "md_display": "88/100"
+            },
+            "baseline": {
+                "value": 1.0,
+                "rich_display": "[bold]100[/]/100",
+                "md_display": "100/100"
+            }
+        },
+        {
+            "name": "KL divergence",
+            "score": {
+                "value": 0.08911173045635223,
+                "rich_display": "[bold]0.0891[/]",
+                "md_display": "0.0891"
+            },
+            "baseline": {
+                "value": 0,
+                "rich_display": "[bold]0[/] [italic](by definition)[/]",
+                "md_display": "0 *(by definition)*"
+            }
+        }
+    ],
+    "hashes": {
+        "model-00001-of-00014.safetensors": "c6ec85bca1c6a688a6011db0fdfff6d6926b85fd7f35d72a290b9be7bef110f7",
+        "model-00002-of-00014.safetensors": "f597a261383a6670ba51db7eaf0938dff137f96a16bafbc2399e11127a713117",
+        "model-00003-of-00014.safetensors": "e001926d05781d834155398c2060cb33f3180742fae4b0f97d641e1eeced3bb9",
+        "model-00004-of-00014.safetensors": "9f741c47f863f1a9d151ddb1f1f6c9c4c6b420459d3663c77cf657a4aeee8b61",
+        "model-00005-of-00014.safetensors": "5cf545699d5775ba6d4f10aeafb9685cf44065cb98bac2fb374de064e6809591",
+        "model-00006-of-00014.safetensors": "6cc6b7de85711f64279349cce8a07ce6a80aff668d74ed196f5020c10f75c4be",
+        "model-00007-of-00014.safetensors": "56cd69c0fc815c21e45c77a65df1ba2d4801e05b4f1e4fbfa9e29cd67f5f5272",
+        "model-00008-of-00014.safetensors": "9ffeff131649785fa2cd45ffa3235a0a49066934f4464c95104d6b95bd8179bd",
+        "model-00009-of-00014.safetensors": "fd07446b931ddee32f2ea9f2261c43041b683e0f936fdf8bf5f72604f49efa66",
+        "model-00010-of-00014.safetensors": "8161fa6bb2db101a9869f2e0c4074f4540363d0724c8bd24f3dd0513b3c86ed6",
+        "model-00011-of-00014.safetensors": "aaf48eb2623b7a114528f46d544cb83bbe88ef15ea9af5b1d781c059e00e5dfb",
+        "model-00012-of-00014.safetensors": "7be1e6289092784e3ca4bc9bc2435d2b25f113b8cfe05af4578e9dd1bb5b2612",
+        "model-00013-of-00014.safetensors": "8cb162f4dcd6cd3a47ce47801bcd4bfbd44308213f0ea7eb74920fd7e2b48b5f",
+        "model-00014-of-00014.safetensors": "4614a96119318bf35291fe5e0310f78da13fe14568cc9f206992ad69c7c8f170"
+    }
+}

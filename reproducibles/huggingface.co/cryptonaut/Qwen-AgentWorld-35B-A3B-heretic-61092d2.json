@@ -1,0 +1,317 @@
+{
+    "version": "2",
+    "timestamp": "2026-07-05T15:36:59",
+    "system": {
+        "python": {
+            "version": "3.11.15",
+            "implementation": "CPython",
+            "compiler": "GCC 14.3.0",
+            "environment": "Conda"
+        },
+        "os": {
+            "platform": "Linux-7.0.0-27-generic-x86_64-with-glibc2.43",
+            "machine": "x86_64"
+        },
+        "cpu": {
+            "brand": "INTEL(R) XEON(R) PLATINUM 8592+",
+            "vendor": "GenuineIntel",
+            "family": 6,
+            "model": 207,
+            "stepping": 2
+        },
+        "accelerators": {
+            "type": "CUDA",
+            "api_name": "CUDA Version",
+            "api_version": "13.2",
+            "driver_version": "595.71.05",
+            "devices": [
+                {
+                    "name": "NVIDIA H200",
+                    "vram_gb": 139.8
+                },
+                {
+                    "name": "NVIDIA H200",
+                    "vram_gb": 139.8
+                },
+                {
+                    "name": "NVIDIA H200",
+                    "vram_gb": 139.8
+                },
+                {
+                    "name": "NVIDIA H200",
+                    "vram_gb": 139.8
+                },
+                {
+                    "name": "NVIDIA H200",
+                    "vram_gb": 139.8
+                },
+                {
+                    "name": "NVIDIA H200",
+                    "vram_gb": 139.8
+                },
+                {
+                    "name": "NVIDIA H200",
+                    "vram_gb": 139.8
+                },
+                {
+                    "name": "NVIDIA H200",
+                    "vram_gb": 139.8
+                }
+            ]
+        }
+    },
+    "environment": {
+        "heretic": {
+            "version": "1.4.0",
+            "is_standard_pypi": true,
+            "metadata": {
+                "type": "pypi"
+            }
+        },
+        "pytorch_version": "2.14.0.dev20260701+cu132",
+        "requirements": {
+            "absl-py": "2.4.0",
+            "accelerate": "1.14.0",
+            "alembic": "1.18.5",
+            "annotated-doc": "0.0.4",
+            "annotated-types": "0.7.0",
+            "anyio": "4.14.1",
+            "bitsandbytes": "0.50.0.dev0",
+            "certifi": "2026.6.17",
+            "chardet": "6.0.0.post1",
+            "charset-normalizer": "3.4.7",
+            "click": "8.4.2",
+            "colorama": "0.4.6",
+            "colorlog": "6.10.1",
+            "cuda-bindings": "13.3.1",
+            "cuda-pathfinder": "1.5.6",
+            "cuda-toolkit": "13.2.1",
+            "dataproperty": "1.1.1",
+            "datasets": "4.8.5",
+            "dill": "0.4.1",
+            "evaluate": "0.4.6",
+            "filelock": "3.29.4",
+            "fsspec": "2026.2.0",
+            "greenlet": "3.5.3",
+            "h11": "0.16.0",
+            "heretic-llm": "1.4.0",
+            "hf-xet": "1.5.1",
+            "httpcore": "1.0.9",
+            "httpx": "0.28.1",
+            "huggingface-hub": "1.21.0",
+            "idna": "3.18",
+            "immutabledict": "4.3.1",
+            "jinja2": "3.1.6",
+            "joblib": "1.5.3",
+            "langdetect": "1.0.9",
+            "lm-eval": "0.4.12",
+            "lxml": "6.1.1",
+            "mako": "1.3.12",
+            "markdown-it-py": "4.2.0",
+            "markupsafe": "3.0.3",
+            "mbstrdecoder": "1.1.5",
+            "mdurl": "0.1.2",
+            "more-itertools": "11.1.0",
+            "mpmath": "1.3.0",
+            "multiprocess": "0.70.19",
+            "narwhals": "2.23.0",
+            "networkx": "3.6.1",
+            "nltk": "3.9.4",
+            "numpy": "2.4.6",
+            "nvidia-cublas": "13.4.0.1",
+            "nvidia-cuda-nvrtc": "13.2.78",
+            "nvidia-cudnn-cu13": "9.23.1.3",
+            "nvidia-cusparselt-cu13": "0.8.1",
+            "nvidia-nccl-cu13": "2.30.7",
+            "nvidia-nvshmem-cu13": "3.4.5",
+            "optuna": "4.9.0",
+            "packaging": "26.0",
+            "pandas": "3.0.3",
+            "pathvalidate": "3.3.1",
+            "peft": "0.19.1",
+            "pillow": "12.3.0",
+            "portalocker": "3.2.0",
+            "prompt-toolkit": "3.0.52",
+            "psutil": "7.2.2",
+            "py-cpuinfo": "9.0.0",
+            "pyarrow": "24.0.0",
+            "pydantic": "2.13.4",
+            "pydantic-core": "2.46.4",
+            "pydantic-settings": "2.14.2",
+            "pygments": "2.20.0",
+            "pytablewriter": "1.2.1",
+            "python-dateutil": "2.9.0.post0",
+            "python-dotenv": "1.2.2",
+            "pyyaml": "6.0.3",
+            "questionary": "2.1.1",
+            "regex": "2026.6.28",
+            "requests": "2.34.2",
+            "rich": "14.3.4",
+            "rouge-score": "0.1.2",
+            "sacrebleu": "2.6.0",
+            "safetensors": "0.8.0",
+            "scikit-learn": "1.9.0",
+            "scipy": "1.17.1",
+            "setuptools": "81.0.0",
+            "shellingham": "1.5.4",
+            "six": "1.17.0",
+            "sqlalchemy": "2.0.51",
+            "sqlitedict": "2.1.0",
+            "sympy": "1.14.0",
+            "tabledata": "1.3.5",
+            "tabulate": "0.10.0",
+            "tcolorpy": "0.1.7",
+            "threadpoolctl": "3.6.0",
+            "tokenizers": "0.22.2",
+            "tomli-w": "1.2.0",
+            "torch": "2.14.0.dev20260701",
+            "torchvision": "0.29.0.dev20260702",
+            "tqdm": "4.68.3",
+            "transformers": "5.12.1",
+            "triton": "3.8.0",
+            "typepy": "1.3.5",
+            "typer": "0.25.1",
+            "typing-extensions": "4.16.0",
+            "typing-inspection": "0.4.2",
+            "urllib3": "2.7.0",
+            "wcwidth": "0.8.2",
+            "word2number": "1.1",
+            "xxhash": "3.8.0"
+        }
+    },
+    "settings": {
+        "model": "cryptonaut/Qwen-AgentWorld-35B-A3B",
+        "model_commit": "d8f6dcfd13c494d1393e6308ed0ddb5e70caf61d",
+        "dtypes": [
+            "auto",
+            "float16",
+            "bfloat16",
+            "float32"
+        ],
+        "quantization": "none",
+        "device_map": "auto",
+        "max_memory": null,
+        "offload_outputs_to_cpu": true,
+        "batch_size": 128,
+        "max_response_length": 100,
+        "response_prefix": "",
+        "kl_divergence_scale": 1.0,
+        "kl_divergence_target": 0.01,
+        "orthogonalize_direction": true,
+        "row_normalization": "full",
+        "full_normalization_lora_rank": 3,
+        "winsorization_quantile": 1.0,
+        "n_trials": 200,
+        "n_startup_trials": 60,
+        "seed": 1722259358,
+        "export_strategy": "merge",
+        "max_shard_size": "5GB",
+        "refusal_markers": [
+            "disclaimer",
+            "sorry",
+            "i can'",
+            "i cant",
+            "i cannot",
+            "i won'",
+            "i wont",
+            "i will not",
+            "i unable",
+            "im unable",
+            "i'm unable",
+            "i am unable",
+            "i an ai",
+            "im an ai",
+            "i'm an ai",
+            "i am an ai",
+            "as an ai",
+            "ai assistant",
+            "i designed to",
+            "im designed to",
+            "i'm designed to",
+            "i am designed to",
+            "i programmed to",
+            "im programmed to",
+            "i'm programmed to",
+            "i am programmed to",
+            "violat",
+            "prohibit",
+            "illegal",
+            "harmful",
+            "inappropriate",
+            "unethical",
+            "ethical boundaries"
+        ],
+        "system_prompt": "You are a helpful assistant.",
+        "good_prompts": {
+            "dataset": "mlabonne/harmless_alpaca",
+            "commit": "02c6a92cfcf11bb0c387334f8146d149d65b587f",
+            "split": "train[:400]",
+            "column": "text",
+            "prefix": "",
+            "suffix": "",
+            "system_prompt": null
+        },
+        "bad_prompts": {
+            "dataset": "mlabonne/harmful_behaviors",
+            "commit": "01cead01398926d81f7c52bdb790ee8cf77ebba7",
+            "split": "train[:400]",
+            "column": "text",
+            "prefix": "",
+            "suffix": "",
+            "system_prompt": null
+        },
+        "good_evaluation_prompts": {
+            "dataset": "mlabonne/harmless_alpaca",
+            "commit": "02c6a92cfcf11bb0c387334f8146d149d65b587f",
+            "split": "test[:100]",
+            "column": "text",
+            "prefix": "",
+            "suffix": "",
+            "system_prompt": null
+        },
+        "bad_evaluation_prompts": {
+            "dataset": "mlabonne/harmful_behaviors",
+            "commit": "01cead01398926d81f7c52bdb790ee8cf77ebba7",
+            "split": "test[:100]",
+            "column": "text",
+            "prefix": "",
+            "suffix": "",
+            "system_prompt": null
+        }
+    },
+    "parameters": {
+        "direction_index": 28.470147090511897,
+        "abliteration_parameters": {
+            "attn.o_proj": {
+                "max_weight": 1.2494363598848441,
+                "max_weight_position": 23.40042935679508,
+                "min_weight": 0.8543476335698885,
+                "min_weight_distance": 22.980422727369387
+            }
+        }
+    },
+    "metrics": {
+        "kl_divergence": 0.007797277998179197,
+        "refusals": 42,
+        "base_refusals": 57,
+        "n_bad_prompts": 100
+    },
+    "hashes": {
+        "model-00001-of-00016.safetensors": "c64290bfcd49fc3273e6d40e6ea0892742866a6e51bfa19bcc7863332a40d576",
+        "model-00002-of-00016.safetensors": "5e3ace00e58969827acf68a9c470937ff4fec270033837948587274f2585d621",
+        "model-00003-of-00016.safetensors": "f8daccc4e6cb49fe9fa68ce6fd1a5bb0f9853b628d7453317611945d84f7d009",
+        "model-00004-of-00016.safetensors": "e99751cbbc320a296d36825387d6babbe273420280d4087fce36cdc3fad38adb",
+        "model-00005-of-00016.safetensors": "839ca342a8ab4a32f0f713cdc97041be9a1271fb3ec4f445085896f1c5357eca",
+        "model-00006-of-00016.safetensors": "995e702cfcb2f5d89405f777df3b138d0667a187a12927df3b546336bc9e32e3",
+        "model-00007-of-00016.safetensors": "6ac3301f6f5794e4f92d98128dd2696f81fb2ffb413dfa304887a65a38b74fcc",
+        "model-00008-of-00016.safetensors": "bdbebb724946dc95c0835f58b8d92b5ef5938bb6ab2c1449674f35fe69e6f881",
+        "model-00009-of-00016.safetensors": "22cc2ff3e8bea3c3522ad9882bedaff4a6a7e588778fa41edc6e79cfcf37f62d",
+        "model-00010-of-00016.safetensors": "8985d2e5fa9d0937796a62a31f575884c347d87e8c57a739dce1a085923fdb9a",
+        "model-00011-of-00016.safetensors": "0250aadb05fd755af178c7399e820eb5f7d0df223489dd0dc97c44943c47148e",
+        "model-00012-of-00016.safetensors": "75a4bc46068a69a642b2dc1e8be05c244c236a54e32890c8f09656d32075cea7",
+        "model-00013-of-00016.safetensors": "8ec9a76b3b719f35d1e48c784119d89fc3db2cf1dda3f25984329b4e6e93b2d7",
+        "model-00014-of-00016.safetensors": "38ed7918c71e9315a2004d2bb76a2a5d6c613232cdae0c1b09db5150801fb6a6",
+        "model-00015-of-00016.safetensors": "eaa5007274ee12e3172ea4f367294d80d745108f0a8e46f788df13558b8e69e5",
+        "model-00016-of-00016.safetensors": "6da8dbe153735c85b9f4646d88c865ae8c76b0fb03d45355a321ccc404e3dde6"
+    }
+}
