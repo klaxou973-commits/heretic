@@ -279,7 +279,6 @@ The development of Heretic was informed by:
   and ["norm-preserving biprojected abliteration"](https://huggingface.co/blog/grimjim/norm-preserving-biprojected-abliteration)
 * Thousands of interactions with members of the community
 
-
 ## Citation
 
 If you use Heretic for your research, please cite it using the following BibTeX entry:
