@@ -284,7 +284,11 @@ If you use Heretic for your research, please cite it using the following BibTeX 
 
 ```bibtex
 @misc{heretic,
-  publisher = {GitHub},
+  author       = {Weidmann, Philipp Emanuel},
+  title        = {{Heretic}: Training-Free Language Model Modification},
+  year         = {2025},
+  howpublished = {\url{https://github.com/p-e-w/heretic}},
+  note         = {Dépôt GitHub, consulté le 8 novembre 2026}
 }
 ```
 
